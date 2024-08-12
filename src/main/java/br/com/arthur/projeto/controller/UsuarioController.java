@@ -26,7 +26,7 @@ public class UsuarioController {
 	@GetMapping
 	public List<UsuarioDTO> listarTodos(){
 		return usuarioService.listarTodos();
-	} //
+	} //teste
 	
 	@PostMapping
 	public void inserir(@RequestBody UsuarioDTO usuario) {
